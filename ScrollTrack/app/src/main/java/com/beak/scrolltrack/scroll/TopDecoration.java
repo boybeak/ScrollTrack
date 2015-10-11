@@ -18,6 +18,8 @@ public class TopDecoration extends RecyclerView.ItemDecoration {
     @Override
     public void getItemOffsets(Rect outRect, View view, RecyclerView parent, RecyclerView.State state) {
         super.getItemOffsets(outRect, view, parent, state);
-        outRect.set(0, mTopView.getHeight(), 0, 0);
+        if (parent.getChildAdapterPosition(view) == 0) {
+            outRect.set(0, mTopView.getHeight(), 0, 0);
+        }
     }
 }
