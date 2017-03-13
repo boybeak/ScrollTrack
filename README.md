@@ -1,3 +1,6 @@
+
+> Using (CoordinatorLayout)[https://developer.android.com/reference/android/support/design/widget/CoordinatorLayout.html] in design support library would be much better!
+
 # ScrollTrack
 A simple RecyclerView OnScrollListener's subclass,that tracking RecyclerView scrolling and hiding or showing some views
 
