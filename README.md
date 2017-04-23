@@ -1,5 +1,5 @@
 
-> Using [CoordinatorLayout](https://developer.android.com/reference/android/support/design/widget/CoordinatorLayout.html) in design support library would be much better!
+> Using [CoordinatorLayout](https://developer.android.com/reference/android/support/design/widget/CoordinatorLayout.html) in design support library would be much better! And I made 2 behavior classes in another project for CoordinatorLayout, [TopHideBehavior](https://github.com/boybeak/WowPaper/blob/master/base/src/main/java/com/nulldreams/base/widget/behavior/TopHideBehavior.java) and [BottomHideBehavior](https://github.com/boybeak/WowPaper/blob/master/base/src/main/java/com/nulldreams/base/widget/behavior/BottomHideBehavior.java). These can performance the same effect. You can find these in project [WowPaper](https://github.com/boybeak/WowPaper)
 
 # ScrollTrack
 A simple RecyclerView OnScrollListener's subclass,that tracking RecyclerView scrolling and hiding or showing some views
